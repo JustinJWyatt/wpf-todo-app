@@ -12,7 +12,7 @@
             <ColumnDefinition Width="2*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0">
-            <TextBox Text="Task Name"/>
+            <TextBox Text="{Binding NewTaskName}"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
@@ -25,11 +25,11 @@
             </Grid>
         </StackPanel>
         <StackPanel Grid.Column="1">
-            <ItemsControl>
+            <ItemsControl ItemsSource="{Binding Tasks}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
-                            <CheckBox Content="Test"></CheckBox>
+                            <CheckBox IsChecked="{Binding IsComplete}" Content="{Binding TaskNAme}"></CheckBox>
                         </StackPanel>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
