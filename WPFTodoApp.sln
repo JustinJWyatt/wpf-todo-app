@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTodoApp", "WPFTodoApp\WPFTodoApp.csproj", "{C02BB16E-8124-4C5C-8300-63E75DC643EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C02BB16E-8124-4C5C-8300-63E75DC643EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02BB16E-8124-4C5C-8300-63E75DC643EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02BB16E-8124-4C5C-8300-63E75DC643EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02BB16E-8124-4C5C-8300-63E75DC643EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAD5FC7B-CB65-4048-AE5C-236E2DAD6F77}
+	EndGlobalSection
+EndGlobal
