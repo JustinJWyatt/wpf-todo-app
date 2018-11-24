@@ -12,7 +12,7 @@
             <ColumnDefinition Width="2*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0">
-            <TextBox Text="{Binding NewTaskName}"/>
+            <TextBox Text="{Binding NewTaskName, Mode=TwoWay}"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
@@ -29,7 +29,7 @@
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
-                            <CheckBox IsChecked="{Binding IsComplete}" Content="{Binding TaskNAme}"></CheckBox>
+                            <CheckBox IsChecked="{Binding IsComplete, Mode=TwoWay}" Content="{Binding TaskNAme}"></CheckBox>
                         </StackPanel>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>

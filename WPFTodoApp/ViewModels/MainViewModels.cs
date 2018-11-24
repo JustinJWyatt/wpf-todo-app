@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WPFTodoApp.Commands;
 
 namespace WPFTodoApp.ViewModels
 {
@@ -10,6 +11,13 @@ namespace WPFTodoApp.ViewModels
     {
         public string NewTaskName { get; set; }
         public List<TaskViewModel> Tasks { get; set; }
+        public CreateTaskCommand CreateTask
+        {
+            get
+            {
+                return new CreateTaskCommand();
+            }
+        }
     }
 
     public class TaskViewModel
